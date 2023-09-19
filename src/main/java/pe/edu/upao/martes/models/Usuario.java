@@ -1,4 +1,4 @@
-package pe.edu.upao.martes.overview;
+package pe.edu.upao.martes.models;
 
 public class Usuario {
     private String nombre;

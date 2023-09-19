@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import pe.edu.upao.martes.overview.Usuario;
+import pe.edu.upao.martes.models.Usuario;
 
 import java.util.ArrayList;
 
@@ -14,6 +14,12 @@ public class HomeController {
     static ArrayList<Usuario> usuarioList = new ArrayList<>();
 
     @GetMapping("/")
+    public String home() {
+
+        return "<hrml>Hola</html>";
+    }
+
+    @GetMapping("/users")
     public ArrayList<Usuario> listUsers() {
         return usuarioList;
     }

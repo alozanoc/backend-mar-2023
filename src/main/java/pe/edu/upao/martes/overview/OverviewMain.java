@@ -1,5 +1,7 @@
 package pe.edu.upao.martes.overview;
 
+import pe.edu.upao.martes.models.Usuario;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
